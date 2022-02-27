@@ -1,0 +1,85 @@
+body {
+	background-color: #F6F6F6;
+    color: #435560;
+    font-family: arial;
+	}
+a {
+	text-decoration: none;
+	color: #FC0B52;
+	font-size: 30px
+}
+a:hover{color: #8F072F}
+h1{
+	font-size: 55px;
+	font-family: 'Shippori Antique B1', sans-serif;
+	font-weight: 500;
+	color: #393E46;
+	text-shadow: 0 0 60px rgba(202,228,225,0.8);
+}
+h2{
+	font-size: 24px;
+	font-family: 'Acme', sans-serif;
+	font-weight: 500
+}
+h2{color: #DB023E}
+p{text-justify:justify;}
+.container{
+	width: 700px;
+	margin:40px auto;
+}
+@media (max-width: 960px){
+	.container{
+		width: 700px;
+	}
+}
+@media (max-width: 720px){
+	.container{
+		width: 500px;
+	}
+}
+@media (max-width: 540px){
+	.container{
+		width: 300px;
+	}
+}
+.text-center{
+	text-align: center;
+}
+.card-white{
+	background-color: white;
+	border-radius:4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.2);
+	padding: 30px;   
+	border: 1px solid lightgrey;  
+	margin:40px auto;  
+
+   
+}
+.img-circle{
+	border-radius: 50%;
+}
+.liste-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.liste-inline i {
+	font-size: 100px
+	color: grey;
+}
+.liste-inline li{
+	display: inline;
+	padding: 10px
+}
+.btn-grey {
+	background-color: #FC0B52;
+	color: white;
+	padding: 5px 5px;
+	border-radius: 4px;
+}
+.btn-grey:hover {
+	background-color: #8F072F;
+	color: white;
+}
+#Rec_page {
+	font-size: 14px
+}
